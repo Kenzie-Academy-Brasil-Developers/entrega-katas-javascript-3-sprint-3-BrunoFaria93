@@ -68,7 +68,7 @@ function kata6() {
 
 function kata7() {
     const array = []
-    for(let i = 0; i < 100; i ++){
+    for(let i = 1; i < 100; i ++){
         if(i % 7 === 0){
             array.push(i)
         }
@@ -194,8 +194,8 @@ function kata18() {
 function kataBonus1() {
     for(let i = 0; i < 20; i++){
         const retangulo = document.createElement('div')
-        retangulo.style.height = '20px'
-        retangulo.style.width = '100px'
+        retangulo.style.height = '18px'
+        retangulo.style.width = '98px'
         retangulo.style.border = '1px solid gray'
         document.body.appendChild(retangulo)
     }
@@ -208,8 +208,8 @@ function kataBonus2() {
     }
     for(let i = 0; i < 20; i++){
         const retangulo = document.createElement('div')
-        retangulo.style.height = '20px'
-        retangulo.style.width = array[i] + 'px'
+        retangulo.style.height = '18px'
+        retangulo.style.width = array[i] - 2 + 'px'
         retangulo.style.border = '1px solid gray'
         document.body.appendChild(retangulo)
     }
@@ -218,8 +218,8 @@ function kataBonus2() {
 function kataBonus3() {
     for(let i = 0; i < 20; i++){
         const retangulo = document.createElement('div')
-        retangulo.style.height = '20px'
-        retangulo.style.width = sampleArray[i] + 'px'
+        retangulo.style.height = '18px'
+        retangulo.style.width = sampleArray[i] - 2 + 'px'
         retangulo.style.border = '1px solid gray'
         document.body.appendChild(retangulo)
     }
@@ -228,8 +228,8 @@ function kataBonus3() {
 function kataBonus4() {
     for(let i = 0; i < 20; i++){
         const retangulo = document.createElement('div')
-        retangulo.style.height = '20px'
-        retangulo.style.width = sampleArray[i] + 'px'
+        retangulo.style.height = '18px'
+        retangulo.style.width = sampleArray[i] - 2 + 'px'
         retangulo.style.border = '1px solid red'
         if(i % 2 !== 0){
             retangulo.style.border = '1px solid gray'
@@ -241,8 +241,8 @@ function kataBonus4() {
 function kataBonus5() {
     for(let i = 0; i < 20; i++){
         const retangulo = document.createElement('div')
-        retangulo.style.height = '20px'
-        retangulo.style.width = sampleArray[i] + 'px'
+        retangulo.style.height = '18px'
+        retangulo.style.width = sampleArray[i] - 2 + 'px'
         retangulo.style.border = '1px solid grey'
         if(sampleArray[i] % 2 === 0){
             retangulo.style.border = '1px solid red'
